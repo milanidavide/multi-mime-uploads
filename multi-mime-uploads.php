@@ -57,6 +57,10 @@ function multimimeup_check_filetype_and_ext( $filetype_and_ext, $file, $filename
 
 		$mimes = apply_filters( 'multimimeup_add_mimes', array(), null );
 
+		if ( empty( $mimes ) || ! isset( $mimes[ $ext ] ) ) {
+			return $filetype_and_ext;
+		}
+
 		if ( is_string( $mimes[ $ext ] ) ) {
 			$mimes[ $ext ] = array( $mimes[ $ext ] );
 		}
