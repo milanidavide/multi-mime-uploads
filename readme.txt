@@ -24,10 +24,16 @@ add_filter( 'multimimeup_add_mimes', 'add_mimes_callback', 10, 2 );
 
 == Changelog ==
 
+= 0.1.1 =
+* Add validation to handle cases where the $mimes array is empty or the key $ext is not defined.
+
 = 0.1.0 =
 * Initial release.
 
 == Upgrade Notice ==
+
+= 0.1.1 =
+* Add validation to handle cases where the $mimes array is empty or the key $ext is not defined.
 
 = 0.1.0 =
 * This is the first release of the plugin.

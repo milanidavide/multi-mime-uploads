@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Multi-MIME Uploads
  * Description: Adds support for multiple MIME types per file extension during file uploads.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: Davide Milani
  * Author URI: https://www.milanidavide.com/
  * License: BSD-3-Clause license
